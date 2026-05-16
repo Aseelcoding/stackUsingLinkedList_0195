@@ -13,6 +13,13 @@ public:
         next = NULL;
     }
 };
+class stack
+{
+private:
+    Node* top;
+
+public:
+};
 int main()
 {
     std::cout << "Hello World!\n";
