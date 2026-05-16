@@ -19,6 +19,10 @@ private:
     Node* top;
 
 public:
+    stack()
+    {
+        top = NULL;
+    }
 };
 int main()
 {
