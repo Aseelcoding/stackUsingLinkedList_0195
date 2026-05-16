@@ -37,6 +37,10 @@ public:
     {
         return top == NULL;
     }
+    void pop()
+    {
+        Node* temp = top;
+    }
 };
 int main()
 {
