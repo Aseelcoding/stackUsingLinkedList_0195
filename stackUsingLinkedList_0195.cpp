@@ -39,13 +39,13 @@ public:
     }
     void pop()
     {
-       
         if (isEmpty())
         {
             cout << "Stack is empty. Cannot pop." << endl;
         }
 
         Node* temp = top;
+        top = top->next;
     }
 };
 int main()
