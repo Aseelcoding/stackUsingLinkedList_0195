@@ -49,6 +49,9 @@ public:
 
         cout << "Pop value: " << temp->data << endl;
     }
+    void peek()
+    {
+
     }
 };
 int main()
